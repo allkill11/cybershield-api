@@ -5,7 +5,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)  # Autoriser les requêtes depuis GitHub Pages
 
-API_KEY = "TA_CLE_API"  # Remplace par ta vraie clé API LeakCheck
+API_KEY = "04cb4ed4a8c73c7b33816cc58a5d59b44be08615"  # Remplace par ta vraie clé API LeakCheck
 
 @app.route('/check-site', methods=['GET'])
 def check_site():
